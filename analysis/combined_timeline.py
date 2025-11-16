@@ -1,8 +1,8 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-rescue = pd.read_csv('../data/events_1976-2025.csv', parse_dates=['rescue_date'])
-donations = pd.read_csv('../data/fec_prc_donations_2016-2024.csv', parse_dates=['date'])
+rescue = pd.read_csv('./data/events_1976-2025.csv', parse_dates=['rescue_date'])
+donations = pd.read_csv('./data/fec_prc_donations_2016-2024.csv', parse_dates=['date'])
 
 fig, ax1 = plt.subplots(figsize=(12,6))
 
